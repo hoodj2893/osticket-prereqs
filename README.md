@@ -28,7 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/aiTApGp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After I have downloaded and enabled or installed all of my pre-requisites with standard configurations. I now move on to the installation and set up of osTicket.
@@ -37,7 +37,7 @@ I have opened IIS as an Admin, Register PHP from within IIS and Reloaded IIS (Op
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Hdd631A.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 I took the following steps to start installing osTIcket v1.15.8
@@ -47,8 +47,13 @@ C. Within c:\inetpub\wwwroot, Rename “upload” to “osTicket
 </p>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/s8yLk27.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+<img src="https://i.imgur.com/tQh4UTC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now back in IIS I went to 'sites', clicked on 'Default web store', then 'osTicket'. OsTicket then opened in the browser and observed that some extensions were not yet enabled. I have enabled the following extensions:php_imap.dll
@@ -58,7 +63,7 @@ php_opcache.dll
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/shMcMiG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 I then renamed the file C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to, C:\inetpub\wwwroot\osTicket\include\ost-config.php. I also set the permission on the file as to who can and cannot access this file. I have allowed "everyone" to access this file.
@@ -66,7 +71,7 @@ I then renamed the file C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/orB7Oke.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next I continued setting up osTicket in the browser, creating a name for my helpdesk and setting a default email I chose:Help desk name: Jecara Help deskDefault email (receives email from customers): jecara@helper.com.
@@ -74,7 +79,7 @@ Next I continued setting up osTicket in the browser, creating a name for my help
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/M7g40Af.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 I then downloaded and installed HeidiSQL. After installation was completed, I opened HeidiSQL and created a new database called osTicket. 
@@ -82,15 +87,20 @@ I then downloaded and installed HeidiSQL. After installation was completed, I op
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YmlyCr6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lastly, I head back to the web browser with osTicket pulled up and continue setting up osTicket. I entered my new MYSQL database name"osTicket", MYSQL username and password. Finally I clicked "Install Now". I also did some cleaning up at the end of the installation, heading back to the osTicket folder in the C drive, I then deleted the set up folder. I've also set the Permissions to “Read” only in the same wroot folder.
 </p>
 <br />
 
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/abJr2d7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+<img src="https://i.imgur.com/aYVALSZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Here is what the final osTicket help desk login page and the end users os Ticket page looks like in web browser
